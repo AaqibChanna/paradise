@@ -1,0 +1,24 @@
+.amenities {
+  padding: 3rem 0;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.amenity {
+  background: rgb(203, 131, 65);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h2{
+  color: rgb(203, 131, 65);
+}
+.amenity h4 {
+  color: bisque;
+  margin-bottom: 0.5rem;
+}
