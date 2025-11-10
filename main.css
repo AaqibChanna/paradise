@@ -1,0 +1,78 @@
+:root {
+  --bg: #f7fbfd;
+  --accent: #00bfff;
+  --sand: #f5e0c7;
+  --dark: #16324f;
+  --muted: #6b7a8a;
+  --radius: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--dark);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header + Navbar */
+.site-header {
+  background: rgb(110 13 37);
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: bisque;
+  font-size: 1.4rem;
+}
+
+.brand span {
+  color: rgb(203, 131, 65);
+}
+
+.main-nav a {
+  text-decoration: none;
+  margin: 0 0.8rem;
+  color: bisque;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: skyblue;
+}
+
+.cta {
+  background: rgb(203, 131, 65);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background: rgb(110 13 37);
+  color: bisque;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background:  rgb(110 13 37);
+  color: bisque;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
