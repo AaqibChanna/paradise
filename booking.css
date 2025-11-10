@@ -1,0 +1,35 @@
+.booking {
+  padding: 3rem 0;
+}
+
+.booking-form {
+  background:  rgb(203, 131, 65);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.booking-form label {
+  color: bisque;
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+h2{
+  color: rgb(203, 131, 65);
+}
+
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e4e9f0;
+  border-radius: 6px;
+}
+
+.booking-form button {
+  width: 100%;
+}
