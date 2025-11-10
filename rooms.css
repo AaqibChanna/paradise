@@ -1,0 +1,40 @@
+.rooms {
+  padding: 3rem 0;
+  background-color: rgb(245, 245, 245);
+}
+
+h2{
+  color: rgb(203, 131, 65);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background:  rgb(203, 131, 65);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-body h3 {
+  color:  bisque;
+  margin-bottom: 0.3rem;
+}
+
+.card-body p {
+  /* color: bisque; */
+}
