@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking – Paradise Resort</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html" class="brand">Paradise<span>Resort</span></a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="amenities.html">Amenities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html" class="cta">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section booking">
+    <div class="container">
+      <h2>Book a Room</h2>
+      <form class="booking-form" action="#">
+        <label>Name</label>
+        <input type="text" placeholder="Full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Check-in</label>
+        <input type="date" required>
+
+        <label>Check-out</label>
+        <input type="date" required>
+
+        <label>Room Type</label>
+        <select required>
+          <option>Standard Room</option>
+          <option>Deluxe Room</option>
+          <option>Ocean View Suite</option>
+        </select>
+
+        <button type="submit" class="btn">Submit Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Paradise Resort</p>
+  </footer>
+  <script src="booking.js"></script>
+</body>
+</html>
